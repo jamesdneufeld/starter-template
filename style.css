@@ -54,10 +54,10 @@ color: white;
 /* Hyperlink Styles */
 a {
   text-decoration: none;
-  color: rgb(233, 233, 233);
+  color: rgb(78, 158, 204);
 }
 a:hover {
-  color: rgb(85, 255, 204);
+  color: rgb(196, 62, 62);
 }
 
 p {margin-bottom: 1em;}
