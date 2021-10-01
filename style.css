@@ -16,7 +16,7 @@ html {
 
 /* Styling Variables */
 :root {
-  --accent-color: #555;
+  --accent-color: rgb(66, 88, 255);
   --body-typeface: 'IBM Plex Mono', monospace;
   --main-heading: 'Public Sans', sans-serif;
 }
@@ -226,4 +226,49 @@ p {
   min-height: 800vh;
   background: rgb(255, 255, 255);
   padding: 1em;
+}
+
+#tooltip {
+  position:absolute;
+  background: var(--accent-color);
+  color:rgb(255, 255, 255);
+  font-size: 1em;
+  line-height: 1.3;
+  padding:1em;
+  width: 16vw;
+  height: 30vh;
+}
+
+/* Grid Layout */
+
+.container {
+  display: grid;
+  grid-template-columns: 1.8fr 0.4fr 0.8fr 1fr 1.6fr 0.6fr 1.8fr 0.6fr 0.6fr;
+  grid-template-rows: 0.4fr 0.4fr 3fr 0.5fr 0.6fr 0.4fr 2.6fr 1.2fr 1.3fr 1.7fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". . . . . . . . ."
+    "world-kitchen world-kitchen . . . . . . ."
+    "world-kitchen world-kitchen . . . . . . ."
+    ". . . tavolo-lungo tavolo-lungo . . . ."
+    ". . . tavolo-lungo tavolo-lungo . . . ."
+    ". . . . . . . . ."
+    ". . . . . nearby-app nearby-app . ."
+    ". . . . . . . . ."
+    ". . . . . . . . ."
+    ". . . . . . . . .";
+    min-height: 100vh;
+}
+
+.world-kitchen { grid-area: world-kitchen; }
+
+.tavolo-lungo { grid-area: tavolo-lungo; }
+
+.nearby-app { grid-area: nearby-app; }
+
+
+html, body , .container {
+  height: 100%;
+  margin: 0;
 }
