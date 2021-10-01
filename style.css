@@ -61,7 +61,7 @@ a {
 }
 
 a:hover {
-  background-color: rgb(31, 154, 255);
+  background: var(--accent-color);
   color: white;
 }
 
