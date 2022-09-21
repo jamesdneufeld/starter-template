@@ -32,7 +32,7 @@ img {
 
 /* ALL PAGES */
 html {
-    background-image: url(/test-carousel--img/background-tiles/background-tile.jpg);
+    background-image: url(/img/background-tiles/background-tile_default-02.jpg.jpg);
     background-size: 15em;
     background-repeat: repeat;
     scroll-behavior: smooth;
