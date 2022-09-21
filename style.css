@@ -744,6 +744,8 @@ a:active {
     and (max-width: 960px) {
         .arrow-sticky {right: 2.5em; bottom: 2.5em;}
         
+        .gallery-cell {width: 50%;}
+        
         .footer-bio-text {width: auto;}
         
         .portfolio-project-comic-section-tablet-phone {display:none;}
@@ -803,6 +805,8 @@ a:active {
         .allpage-navigation {margin: auto;}
         
         .nav-logo {width: 4em;}
+        
+        .index-hero-text {width: auto;}
         
         .gallery-cell {width: 70%;}
         
