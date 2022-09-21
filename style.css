@@ -32,7 +32,7 @@ img {
 
 /* ALL PAGES */
 html {
-    background-image: url(/img/background-tiles/background-tile_default-02.jpg.jpg);
+    background-image: url(/img/background-tiles/background-tile.jpg);
     background-size: 15em;
     background-repeat: repeat;
     scroll-behavior: smooth;
@@ -545,7 +545,7 @@ a:active {
     justify-content: space-evenly;
     flex-direction: row;
 /*    text-align: center;*/
-    background-image: url(/test-carousel--img/background-tiles/background-tile-footer.jpg);
+    background-image: url(/img/background-tiles/background-tile-footer.jpg);
     background-size: 10em;
     background-repeat: repeat;
     margin-top: 6.25em;
@@ -569,7 +569,7 @@ a:active {
     align-content: center;
     flex-direction: column;
     padding: 1rem;
-    background-image: url(/test-carousel--img/background-tiles/background-tile-footer.jpg);
+    background-image: url(img/background-tiles/background-tile-footer.jpg);
     background-size: 10em;
     background-repeat: repeat;
 }
@@ -720,7 +720,7 @@ a:active {
             align-items: center;
             flex-direction: column;
             text-align: center;
-            background-image: url(/test-carousel--img/background-tiles/background-tile-footer.jpg);
+            background-image: url(/img/background-tiles/background-tile-footer.jpg);
             background-size: 10em;
             background-repeat: repeat;
             margin-top: 6.25em;
