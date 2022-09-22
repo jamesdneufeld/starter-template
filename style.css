@@ -744,7 +744,17 @@ a:active {
     and (max-width: 960px) {
         .arrow-sticky {right: 2.5em; bottom: 2.5em;}
         
-        .index-featured-section-left-column {width: 100%;}
+        .index-featured-section {flex-direction: column;}
+
+        .index-featured-section-left-column {
+            width: 100%;
+            padding-right: 0px;
+        }
+
+        .index-featured-section-right-column {
+            width: auto;
+            padding-left 0px;
+        }
         
         .gallery-cell {width: 50%;}
         
