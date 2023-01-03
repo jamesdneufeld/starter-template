@@ -20,7 +20,7 @@ img {max-width: 100%; height: auto;}
 
 /* ALL PAGES */
 html {
-    background-image: url(/test-carousel--img/background-tiles/background-tile.jpg);
+    background-image: url(/img/background-tiles/background-tile.jpg);
     background-size: 10em;
     background-repeat: repeat;
     background-color: rgba(75, 133, 177, 1);
